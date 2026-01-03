@@ -325,6 +325,11 @@
                     Analysis reveals which financial metrics are most predictive of business failure. X8, X6, and X15 
                     emerge as the top three indicators, representing critical financial ratios that signal distress.
                 </p>
+                <p class="viz-description">
+                    <strong>Note:</strong> The dataset uses anonymized financial ratios (X1-X18) which likely include 
+                    debt-to-equity ratios, profitability metrics, liquidity ratios, and asset turnover measures commonly 
+                    used in bankruptcy prediction models.
+                </p>
             </div>
 
             <div class="viz-item">
@@ -360,11 +365,11 @@
         <section class="insights">
             <h2>Key Insights</h2>
             <ul>
-                <li>Financial ratio X8 is the single most important predictor of business failure, accounting for 8.8% of the model's decision-making</li>
+                <li>Financial ratio X8 is the single most important predictor of business failure, accounting for 8.8% of the model's decision-making power</li>
                 <li>The model handles class imbalance well, with only 6.6% of companies in the dataset actually failing</li>
                 <li>Random Forest outperformed Gradient Boosting by 6.5 percentage points in AUC score</li>
                 <li>The model achieves 95% precision on healthy companies while maintaining 35% precision on failing companies</li>
-                <li>Top 5 features (X8, X6, X15, X3, X11) collectively account for over 30% of prediction importance</li>
+                <li>Top 5 features (X8, X6, X15, X3, X11) collectively account for over 30% of prediction importance, likely representing key metrics such as cash flow, leverage, and profitability ratios</li>
                 <li>False positive rate is kept low at 4.2%, minimizing unnecessary alarm for healthy businesses</li>
             </ul>
         </section>
